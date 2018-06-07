@@ -58,7 +58,9 @@ strong {
 .fs12{
     font-size:12px!important;
 }
-
+.mr10{
+    margin-right: 10px;
+}
 .cFloat:after {
     content: ".";
     display: block;
@@ -473,7 +475,7 @@ strong {
 }
 
 .content_l {
-    width: 475px;
+    width: 495px;
     float: left;
     padding: 10px;
     overflow: hidden;
@@ -481,7 +483,7 @@ strong {
 }
 
 .content_r {
-    width: 475px;
+    width: 495px;
     float: right;
     padding: 10px;
     height: 100%;
@@ -903,7 +905,7 @@ strong {
 .ncontent_r {
     width: 740px;
     float: right;
-    padding: 5px;
+    padding: 15px;
     font-size: 14px;
 }
 
@@ -927,8 +929,7 @@ strong {
     text-indent: 2em;
     margin: 0 auto;
     width: 98%;
-    height: 550px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .contentbox1 {
@@ -942,13 +943,13 @@ strong {
 
 .contentboxl {
     float: left;
-    width: 430px;
+    width: 420px;
     border: #e3e3e3 1px solid;
 }
 
 .contentboxr {
     float: right;
-    width: 300px;
+    width: 280px;
     border: #e3e3e3 1px solid;
 }
 
@@ -1337,6 +1338,12 @@ strong {
 .info {
     line-height: 26px;
     text-align: center;
+    padding-bottom: 10px;
+    border-bottom:1px dashed #ddd;
+    margin:0 auto;
+    margin-bottom:20px;
+    width:90%;
+
 }
 
 .info .infoCol {
@@ -2767,6 +2774,7 @@ strong {
     margin-top:10px;
     margin-bottom: 10px;
     padding-left:15px;
+    width:98%;
 }
 .left-arrow{
     margin-top:18px;
@@ -2804,4 +2812,44 @@ strong {
     text-align: left;
     margin-left:10px;
 }
-
+.chapter-content-title{
+    width:80%;
+    margin:0 auto;
+    border-bottom:1px solid #ddd;
+    line-height: 20px;
+}
+.text-indent0{
+    text-indent: 0!important;
+}
+.wrap{
+    width:100%;
+    padding: 15px;
+}
+.lesson-plan{
+    line-height: 1.7;
+    font-size:16px;
+}
+.lesson-plan>h4{
+    font-weight: 600;
+    margin-bottom:10px;
+}
+.lesson-plan>p{
+    margin-bottom: 15px;
+}
+.list-a{
+    display: inline-block;
+    width:100%;
+    padding:10px;
+    border:1px solid #e6e6e6;
+    margin-bottom: 5px;
+    font-size:16px;
+}
+.list-a img{
+    display: inline;
+    width:16px;
+    height: 16px;
+    margin-top:1px;
+}
+.class-video{
+    
+}
